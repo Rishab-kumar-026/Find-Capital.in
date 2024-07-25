@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindCapital Official.in</title>
+    <link rel="icon" href="images/Find Capital Icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/39472fb910.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="w-full h-auto">
+        <nav class="w-full px-4 py-2 flex items-center justify-between shadow-lg sm:px-6 md:px-8 lg:px-10 xl:px-12">
+            <div class="logo flex items-center justify-center gap-2">
+                <img src="Images/FindCapital Logo.png" alt=""
+                    class="w-[50px] h-[50px] cursor-pointer rounded-full lg:w-[60px] lg:h-[60px] xl:w-[35px] xl:h-[35px]"><span
+                    class="font-bold text-[20px] hidden xl:block">Find Capital</span>
+            </div>
+            <h1 class="font-bold text-[20px] lg:hidden">Find Capital</h1>
+
+            <div class="menu-icon text-[20px] cursor-pointer sm:text-[24px] lg:hidden" onclick="handle()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div
+                class="nav-links hidden lg:block lg:flex items-center justify-between gap-2 w-[50%] h-full text-[18px] font-medium xl:w-[50%]">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#investors">Investors</a>
+                <a href="#start-ups">Start-ups</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div
+                class="button-container hidden lg:block lg:text-[16px] font-medium cursor-pointer bg-[black] text-white px-4 py-2 rounded-2xl hover:bg-[white] hover:text-[black] transition ease-in duration-300 border-2 border-black">
+                <button class="login-sign-up-btn">
+                    Login/Sign up
+                </button>
+            </div>
+
+            <div id="navigation"
+                class="navigation hidden w-full h-full fixed bg-white inset-0 px-4 py-2 sm:px-6 md:px-8 lg:hidden">
+                <div class="nav-bar flex justify-between items-center mb-6">
+                    <div class="logo  ">
+                        <img src="Images/FindCapital Logo.png" alt=""
+                            class="w-[50px] h-[50px] cursor-pointer rounded-full xl:w-[60px] xl:h-[60px]">
+                    </div>
+
+                    <div class="xmark-icon text-[20px] cursor-pointer sm:text-[24px] lg:hidden" onclick="handle()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+
+                <div class="nav-links flex flex-col gap-2 text-[18px] font-medium mb-6 px-4">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#investors">Investors</a>
+                    <a href="#start-ups">Start-ups</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div
+                    class="button-container w-[40%] text-[16px] text-center font-medium cursor-pointer bg-[black] text-white px-4 py-2 rounded-2xl sm:w-[30%] md:w-[25%] hover:bg-[white] hover:text-[black] transition ease-in duration-300 border-2 border-black">
+                    <button class="login-sign-up-btn">
+                        Login/Sign up
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home Page Section -->
+
+        <section
+            class="home-page w-full px-4 pt-12 mb-8 sm:px-6 md:px-8 md:text-center md:pt-4 lg:grid lg:grid-cols-2 lg:px-10 lg:text-start lg:content-center lg:h-[85vh] xl:px-12">
+            <div class="home-page-info-container mb-4 xl:content-center xl:px-2">
+                <h1 class="font-bold text-[24px] sm:text-[28px] xl:text-[32px]">Welcome To<span class="text-[blue]">
+                        FindCapital</span></h1>
+                <h1 class="font-bold text-[28px] mb-6 sm:text-[32px] xl:text-[36px]">Where Vision Meets Venture...</h1>
+                <p class="font-medium leading-[1.5] w-full text-[18px] sm:text-[20px] xl:text-[22px]">" Connect with
+                    visinory investors and innovative
+                    startups on our platfrom.Turn ideas into success and create the future together. "</p>
+                <div class="btn-container hidden  p-2 lg:block w-[50%] mt-6">
+                    <button
+                        class="bg-[white] w-[80%] rounded-lg p-4  font-semibold text-[18px] border text-[#000] border border-[grey] cursor-pointer hover:bg-[black] hover:text-[white] transition ease-in duration-300">Read
+                        More</button>
+                </div>
+            </div>
+
+            <div class="home-page-img-container mb-2 sm:w-[80%] sm:h-[50%] sm:mx-auto md:w-[70%] lg:w-[90%]">
+                <img src="Images/home-page img.png" alt="Home-Page-Image">
+            </div>
+
+            <div
+                class="btn-container w-[90vw] p-2 mx-auto flex flex-col gap-4 sm:flex-row items-center justify-center sm:w-[75vw] md:w-[65vw] lg:hidden">
+                <button
+                    class="bg-[white] w-[90vw] rounded-lg p-4  font-semibold text-[18px] border text-[#000] border border-[grey] cursor-pointer hover:bg-[black] hover:text-[white] transition ease-in duration-300">Read
+                    More</button>
+            </div>
+        </section>
+
+    </header>
+
+
+    <!-- Description Section -->
+
+    <section class="description-page w-full pt-6  px-4  sm:px-6 md:px-8 lg:px-10 xl:px-12 xl:w-[90%] xl:mx-auto">
+        <h1 class="text-center text-[30px] font-bold mb-8">WHY US?</h1>
+        <div class="information-container lg:grid grid-cols-2 gap-4 mb-8">
+            <div class="info-1 flex items-center justify-between gap-6 mb-8 shadow-md p-4 rounded-lg">
+                <i class="fa-solid fa-globe hidden text-[24px] text-[blue] mr-2 xl:block xl:text-[50px]"></i>
+                <div class="info-1-box">
+                    <h1 class="text-[24px] font-semibold mb-2 lg:mb-4 lg:text-[26px]"><i
+                            class="fa-solid fa-globe text-[24px] text-[blue] mr-2 lg:text-[26px] xl:hidden"></i>Global
+                        Reach</h1>
+                    <p class="text-[18px] font-medium tracking-tight opacity-[0.7]">" Helping startups to connect with
+                        the investors across the globe.Also helps the startups to have a
+                        dig on the International market. "</p>
+                </div>
+
+            </div>
+
+            <div class="info-2 flex items-center justify-between gap-6 mb-8 shadow-md p-4 rounded-lg">
+                <i class="fa-solid fa-handshake hidden text-[24px] text-[green] mr-2 xl:block xl:text-[50px]"></i>
+                <div class="info-2-box">
+                    <h1 class="text-[24px] font-semibold mb-2 lg:mb-4 lg:text-[26px]"><i
+                            class="fa-solid fa-handshake text-[24px] text-[green] mr-2 lg:text-[26px] xl:hidden"></i>End-To-End
+                        Support</h1>
+                    <p class="text-[18px] font-medium tracking-tight opacity-[0.7]">" Providing end-to-end support to
+                        the startups by providing legal investments procedure from both sides. "</p>
+                </div>
+
+            </div>
+
+            <div class="info-3 flex items-center justify-between gap-6 mb-8 shadow-md p-4 rounded-lg">
+                <i
+                    class="fa-solid fa-magnifying-glass-chart hidden text-[24px] text-[#0EA5E9] mr-2 xl:block xl:text-[50px]"></i>
+                <div class="info-3-box">
+                    <h1 class="text-[24px] font-semibold mb-2 lg:mb-4 lg:text-[26px]"><i
+                            class="fa-solid fa-magnifying-glass-chart text-[24px] text-[#0EA5E9] mr-2 lg:text-[26px] xl:hidden"></i>Data
+                        Insights</h1>
+                    <p class="text-[18px] font-medium tracking-tight opacity-[0.7]">" Providing detailed data analysis
+                        on how the startup currently operates,and the investor portal to help them to get to know each
+                        other. "</p>
+                </div>
+
+            </div>
+
+            <div class="info-4 flex items-center justify-between gap-6 mb-8 shadow-md p-4 rounded-lg">
+                <i class="fa-solid fa-robot hidden text-[24px] text-[red] mr-2 xl:block xl:text-[50px]"></i>
+                <div class="info-4-box">
+                    <h1 class="text-[24px] font-semibold mb-2 lg:mb-4 lg:text-[26px]"><i
+                            class="fa-solid fa-robot text-[24px] text-[red] mr-2 lg:text-[26px] xl:hidden"></i>AI-Driven
+                        Matching</h1>
+                    <p class="text-[18px] font-medium tracking-tight opacity-[0.7]">" Use on AI to match your startup
+                        with the potential investors based on your specific needs,industry and according to your growth
+                        stage. "</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+
+    <section id="pricing"
+        class="pricing-section w-full h-auto px-4 sm:px-6 md:px-8 md:pt-4 lg:px-10 lg:text-start lg:content-center lg:h-[85vh] xl:px-12">
+
+        <h1 class="text-center text-[30px] font-bold mb-8">Choose a Plan to Grow Your Business </h1>
+        <div class="plans-container w-full h-auto py-4 lg:grid grid-cols-3 lg:gap-8">
+            <div
+                class="plan-1 box border-2 border-grey-900 rounded-xl w-[90vw] h-[65vh] mx-auto px-6 pt-8 mb-4 bg-[#FBFBFD] relative lg:w-[28vw] lg:h-[65vh] xl:w-[28vw] 2xl:w-[28vw]">
+                <h1 class="font-semibold text-[34px] mb-4">FREE</h1>
+                <h2 class="font-lighter text-[22px] mb-8"><span class="font-semibold">$0</span> /month</h2>
+                <h3 class="text-[#84858A] text-[18px] font-medium mb-6">KEY FEATURES</h3>
+
+
+                <ul class="text-[18px] mb-10">
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Free for personal use</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Run app locally</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-xmark mt-2 opacity-[0.7]"></i><span>No Code Signing</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-xmark mt-2 opacity-[0.7]"></i><span>No Native Installers</span>
+                    </li>
+                </ul>
+
+
+                <button
+                    class="font-semibold text-[18px] text-[blue] bg-white w-[90%] px-4 py-2 rounded-lg cursor-pointer mb-6 text-center border border-grey-300 absolute bottom-0 lg:w-[80%]">
+                    Get Started
+                </button>
+
+            </div>
+
+            <div
+                class="plan-2 box border-2 border-grey-900 rounded-xl w-[90vw] h-[65vh] mx-auto px-6 pt-8 mb-8 bg-[#FBFBFD] relative lg:w-[28vw] lg:relative xl:w-[28vw] 2xl:w-[28vw]">
+                <h1 class="font-semibold text-[34px] mb-4">PRO</h1>
+                <h2 class="font-lighter text-[22px] mb-8"><span class="font-semibold">$9</span> /month</h2>
+                <h3 class="text-[#84858A] text-[18px] font-medium mb-6">KEY FEATURES</h3>
+
+
+                <ul class="text-[18px] mb-10">
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Windows, Mac & Linux</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Code Signing</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Native Installers</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Email/chat support</span>
+                    </li>
+                </ul>
+
+
+                <button
+                    class="font-semibold  text-[18px] text-[blue] bg-white w-[90%] px-4 py-2 rounded-lg cursor-pointer mb-6 text-center border border-grey-300 absolute bottom-0 lg:w-[80%]">
+                    Get Started
+                </button>
+
+            </div>
+
+            <div
+                class="plan-3 box border-2 border-grey-900 rounded-xl w-[90vw] h-[65vh] mx-auto px-6 pt-8 mb-2 bg-[#FBFBFD] relative lg:w-[28vw] lg:relative xl:w-[28vw] 2xl:w-[28vw]">
+                <h1 class="px-4 py-1 rounded-2xl bg-[#D5DDFF] text-[#3238F2] cursor-pointer font-medium absolute right-2 top-[-15px] xl:right-6"
+                    style="width: fit-content;">Most popular</h1>
+                <h1 class="font-semibold text-[34px] mb-4">PREMIUM</h1>
+                <h2 class="font-lighter text-[22px] mb-8"><span class="font-semibold">$49</span> /month</h2>
+                <h3 class="text-[#84858A] text-[18px] font-medium mb-6">KEY FEATURES</h3>
+
+
+                <ul class="text-[18px] mb-10">
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Plugins</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Branded Download links</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Analytics</span>
+                    </li>
+                    <li class="font-medium opacity-[0.7] cursor-pointer flex gap-4 mb-4"><i
+                            class="fa-solid fa-check mt-2 opacity-[0.7]"></i><span>Access to restricted API</span>
+                    </li>
+                </ul>
+                <button
+                    class="font-semibold text-[18px] text-[white] bg-[blue] w-[90%] px-4 py-2 rounded-lg cursor-pointer mb-6 text-center absolute bottom-0 lg:w-[80%]">
+                    Get Started
+                </button>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
