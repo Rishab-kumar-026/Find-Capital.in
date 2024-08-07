@@ -30,14 +30,23 @@ links.forEach((link) =>{
   
 });
 
-const investor_box = document.querySelectorAll(".detail-box h1");
+const investor_box = document.querySelectorAll(".investor-detail");
 const details = document.querySelectorAll(".more-details");
-const investor_icon = document.querySelectorAll(".detail-box h1 i");
+
 
 investor_box.forEach((investor, index) => {
     investor.addEventListener("click", () => {
         details[index].classList.toggle("hidden");
-        investor_icon[index].classList.toggle("fa-xmark");
     });
 });
 
+const questions = document.querySelectorAll("#question-box");
+const answers = document.querySelectorAll("#answer-box");
+const questionBoxIcons = document.querySelectorAll("#question-box i");
+
+questions.forEach((question, index) => {
+    question.addEventListener("click", () => {
+        answers[index].classList.toggle("hidden");
+        questionBoxIcons[index].classList.toggle("fa-xmark");
+    });
+});
