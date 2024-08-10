@@ -1,6 +1,6 @@
 const nav_dialogue = document.getElementById("navigation");
 
-function handle(){
+function handle() {
     nav_dialogue.classList.toggle('hidden');
 };
 
@@ -23,11 +23,11 @@ box_divs.forEach((box_div) => {
 const links = document.querySelectorAll(".nav-links-mb a");
 const div = document.getElementById("navigation");
 
-links.forEach((link) =>{
-    link.addEventListener("click",()=>{
-       div.classList.add("hidden");
+links.forEach((link) => {
+    link.addEventListener("click", () => {
+        div.classList.add("hidden");
     });
-  
+
 });
 
 const investor_box = document.querySelectorAll(".investor-detail");
